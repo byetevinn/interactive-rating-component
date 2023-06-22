@@ -1,0 +1,31 @@
+:root {
+
+    /* Layout */
+
+    --mobile: 375px;
+    --desktop: 1440px;
+
+    /* Colors */
+
+    /* Primary */
+    --orange: rgb(251, 116, 19);
+
+    /* Neutral */
+
+    --white: rgb(255, 255, 255);
+    --light-grey: rgb(149, 158, 172);
+    --medium-grey: rgb(124, 135, 152);
+    --dark-blue: rgb(37, 45, 55);
+    --very-dark-blue: rgb(18, 20, 23);
+
+    /* Typography */
+
+    /* Body Copy */
+    --font-size-paragraph: 15px;
+
+    /* Font */
+
+    --font-family: 'Overpass', sans-serif;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+}
