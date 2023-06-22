@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    font-family: var(--font-family);
+
+    background-color: var(--very-dark-blue);
+
+}
+
+/* Estilização do card principal */
+
+.div_card {
+    width: 350px;
+    height: 350px;
+
+    background-color: var(--dark-blue);
+
+    border-radius: 30px;
+
+    padding: 30px;
+
+}
+
+/* Estilização icone */
+
+.div_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50px;
+    height: 50px;
+
+    background-color: var(--very-dark-blue);
+
+    border-radius: 50px;
+}
+
+/* Estilização da div de texto */
+
+.div_text h1 {
+    color: var(--white);
+
+    font-weight: var(--font-weight-bold);
+}
+
+.div_text p {
+    color: var(--light-grey);
+
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-normal);
+}
+
+/* Estilização da lista */
+
+.list_options {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    margin: 40px 0px;
+}
+
+.list_options button {
+    width: 50px;
+    height: 50px;
+
+    background-color: var(--very-dark-blue);
+    color: var(--light-grey);
+
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-bold);
+
+    border: none;
+    border-radius: 50px;
+
+    cursor: pointer;
+}
+
+.list_options button:hover {
+    color: var(--white);
+    background-color: var(--medium-grey);
+}
+
+.list_options button:active {
+    background-color: var(--orange);
+}
+
+/* Estilização botão de envio */
+
+.submit_button {
+    width: 100%;
+
+    background-color: var(--orange);
+    color: var(--white);
+
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-bold);
+
+    border: none;
+    border-radius: 50px;
+
+    padding: 15px 0px;
+
+    cursor: pointer;
+}
+
+.submit_button:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}
