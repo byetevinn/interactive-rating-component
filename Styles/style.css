@@ -9,6 +9,7 @@ body {
 
     background-color: var(--very-dark-blue);
 
+    margin: 0px;
 }
 
 /* Estilização do card principal */
@@ -100,6 +101,8 @@ body {
 
     font-size: var(--font-size-paragraph);
     font-weight: var(--font-weight-bold);
+
+    letter-spacing: 3px;
 
     border: none;
     border-radius: 50px;
