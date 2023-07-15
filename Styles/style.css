@@ -82,12 +82,13 @@ body {
     cursor: pointer;
 }
 
-.list_options button:hover {
+.list_options button:not(.active):hover {
     color: var(--white);
     background-color: var(--medium-grey);
 }
 
-.list_options button:active {
+.list_options .active {
+    color: var(--very-dark-blue);
     background-color: var(--orange);
 }
 
